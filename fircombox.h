@@ -2,8 +2,10 @@
 #define FIRCOMBOX_H
 
 #include <QWidget>
+#include <QComboBox>
 
-class FirComBox : public QWidget
+
+class FirComBox : public QComboBox
 {
     Q_OBJECT
 public:
