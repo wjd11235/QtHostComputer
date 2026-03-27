@@ -265,6 +265,7 @@ Makefile: ../../SmartSerialPortTool.pro D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/wi
 		D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/qt_config.prf \
 		D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/win32-g++/qmake.conf \
 		D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/exclusive_builds.prf \
 		D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/toolchain.prf \
 		D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/default_pre.prf \
@@ -292,10 +293,11 @@ Makefile: ../../SmartSerialPortTool.pro D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/wi
 		../../SmartSerialPortTool.pro \
 		D:/SoftWare/Qt/6.8.3/mingw_64/lib/Qt6Widgets.prl \
 		D:/SoftWare/Qt/6.8.3/mingw_64/lib/Qt6Gui.prl \
+		D:/SoftWare/Qt/6.8.3/mingw_64/lib/Qt6SerialPort.prl \
 		D:/SoftWare/Qt/6.8.3/mingw_64/lib/Qt6Core.prl \
 		D:/SoftWare/Qt/6.8.3/mingw_64/lib/Qt6EntryPoint.prl \
-		.qmake.stash \
-		D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/build_pass.prf
+		D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/build_pass.prf \
+		../../Resource.qrc
 	$(QMAKE) -o Makefile ..\..\SmartSerialPortTool.pro -spec win32-g++ "CONFIG+=qtquickcompiler"
 D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/spec_pre.prf:
 D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/device_config.prf:
@@ -492,6 +494,7 @@ D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/qt_functions.prf:
 D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/qt_config.prf:
 D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/win32-g++/qmake.conf:
 D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/exclusive_builds.prf:
 D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/toolchain.prf:
 D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/default_pre.prf:
@@ -519,10 +522,11 @@ D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/lex.prf:
 ../../SmartSerialPortTool.pro:
 D:/SoftWare/Qt/6.8.3/mingw_64/lib/Qt6Widgets.prl:
 D:/SoftWare/Qt/6.8.3/mingw_64/lib/Qt6Gui.prl:
+D:/SoftWare/Qt/6.8.3/mingw_64/lib/Qt6SerialPort.prl:
 D:/SoftWare/Qt/6.8.3/mingw_64/lib/Qt6Core.prl:
 D:/SoftWare/Qt/6.8.3/mingw_64/lib/Qt6EntryPoint.prl:
-.qmake.stash:
 D:/SoftWare/Qt/6.8.3/mingw_64/mkspecs/features/build_pass.prf:
+../../Resource.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\..\SmartSerialPortTool.pro -spec win32-g++ "CONFIG+=qtquickcompiler"
 
