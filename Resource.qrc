@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/mianicon.png</file>
+    </qresource>
+</RCC>
